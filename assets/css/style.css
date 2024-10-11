@@ -378,15 +378,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     background:#ff545a;
     box-shadow: 0 5px 10px rgba(71,71,71,.4);
 }
-#list-topics > div > div > ul{
-    display: flex;
-}
 
 /*-------------------------------------
         6. Works 
 --------------------------------------*/
 .works{padding: 0 0 90px;}
 .works-content {margin-top: 73px;}
+ 
+
+
 
 .single-how-works{
     text-align: center;
@@ -587,7 +587,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 --------------------------------------*/
 .reviews{padding:117px 0 75px;}
 .reviews-content {margin-top:36px;}
- 
 
 /*single-testimonial-box */
 .single-testimonial-box  {
@@ -599,16 +598,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     -ms-transition:.3s; 
     -o-transition:.3s;
     transition: .3s;
-  
 }
- 
 .single-testimonial-box:hover{box-shadow:0 10px 20px rgba(21,19,19,.2);}
 .slick-current .single-testimonial-box{box-shadow:0 10px 20px rgba(21,19,19,.2);}
 /*testimonial-description*/
 .single-testimonial-box{
     width: 404px;
     background:#fff;
-    display: flex;
 }
 /* testimonial-info */
 .testimonial-info {
@@ -645,7 +641,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     color: #ffda2b;
     margin: 9px 4px 0 0;
 }/* testimonial-info */
- 
+
 
 /* testimonial-comment */
 .testimonial-comment {
@@ -677,8 +673,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .slick-current {
   opacity: 1;
 }
-
- 
 /*.slick-slide*/
 
 /*-------------------------------------       
