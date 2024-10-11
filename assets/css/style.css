@@ -238,7 +238,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
-    border: 1px solid #ff545a;
+    border: 1px solid #ff0008;
     padding: 10px;
     top: 0;
 }
@@ -563,7 +563,7 @@ explore-rating
     font-weight: 500;
     margin-right: 10px;
 }
-.explore-price {color: #ff0008;font-weight: bold;}
+.explore-price {color:rgb(97, 97, 255);font-weight: bold;}
 .explore-price-box {
     display: inline-block;
     padding: 0 10px;
