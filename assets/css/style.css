@@ -584,16 +584,19 @@ explore-rating
     margin-top: 20px;
 }
 .close-btn {
-    color: #f63138;
+    color:rgb(254,32,32);
     text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14px;
 }
 .close-btn.open-btn {color: #00c437;}
 .explore-map-icon{text-align: right;}
 .explore-map-icon a svg {
-    width: 12px;
-    height: 14px;
+    width: 20px;
+    height: 20px;
     margin-left: 23px;
-    color: #767f86;
+    
+  
 }
 .explore-map-icon a svg:hover{color: #f63138;}
 .single-explore-txt.bg-theme-2 .explore-map-icon a svg:hover{color: #00c437;}
@@ -874,7 +877,7 @@ explore-rating
 .footer-menu ul.footer-menu-item li{display: inline-block;}
 .footer-menu ul.footer-menu-item li a {
     color: #000000;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     padding-left: 40px;
     -webkit-transition:0.3s linear;
