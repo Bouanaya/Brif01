@@ -88,7 +88,7 @@
 
                     <!-- Start Header Navigation -->
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <button aria-label="bars" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand" href="index.html">listo<span>go</span></a>
@@ -168,8 +168,8 @@
 				<div class="col-sm-12">
 					<div class="subscription-input-group">
 						<form action="#">
-							<input type="email" class="subscription-input-form" placeholder="Enter your email here">
-							<button class="appsLand-btn subscribe-btn" onclick="window.location.href='#'">
+							<input type="email" class="subscription-input-form" placeholder="Enter your email here" name="email" autocomplete="off" spellcheck="false">
+							<button name="creat account" class="appsLand-btn subscribe-btn" onclick="window.location.href='#' ">
 								creat account
 							</button>
 						</form>
