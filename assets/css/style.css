@@ -140,10 +140,10 @@ html,body{height: 100%;}
     color: black;
 }
 .select-opt select {
-    border:2px black solid;
+    
     cursor:pointer;
     color:#000000;
-    font-size: 12px;
+    font-size: 20px;
     font-weight:bold;
 }
  
@@ -152,12 +152,16 @@ html,body{height: 100%;}
     text-transform: uppercase;
 }
 .select-opt a span.lnr-magnifier:before {
-    font-size: 12px;
+    font-size: 20px;
     color: #000000;
+    font-weight: 800;
 }
 .select-opt a span.lnr-magnifier:before {
-    font-size: 12px;
+    font-size: 20px;
     color: #000000;
+    font-weight: 800;
+  
+
 }
 /*.select-opt*/
 
@@ -369,6 +373,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     -o-transition:.3s linear;
     transition: .3s linear;
 }
+
+
+explore-rating
+
+
 .single-list-topics-content h2>a { margin: 13px 0;}
 /*.single-list-topics-content:last-child{margin-right: 0;}*/
 
@@ -529,15 +538,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 .single-explore-txt {
     padding: 26px 25px 24px 15px;
 }
-.single-explore-txt.bg-theme-1 .explore-rating{background: #70a9ff;}
-.single-explore-txt.bg-theme-2 .explore-rating{background: #00c61c;}
-.single-explore-txt.bg-theme-3 .explore-rating{background: #ffcc5d;}
-.single-explore-txt.bg-theme-4 .explore-rating{background: #bd70ff;}
-.single-explore-txt.bg-theme-5 .explore-rating{background: #ff7a40;}
+.single-explore-txt.bg-theme-1 .explore-rating{background: #0066ff;}
+.single-explore-txt.bg-theme-2 .explore-rating{background: #028e31;}
+.single-explore-txt.bg-theme-3 .explore-rating{background: #ffae00;}
+.single-explore-txt.bg-theme-4 .explore-rating{background: #350063;}
+.single-explore-txt.bg-theme-5 .explore-rating{background: #ff4d00;}
 
 .explore-rating-price,.explore-rating-price a {
     font-size: 12px;
-    color: #777f85;
+    color: #000000;
     text-transform: capitalize;
     font-weight: 400;
     margin: 15px 0 20px;
@@ -554,7 +563,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     font-weight: 500;
     margin-right: 10px;
 }
-.explore-price {color: #f63138;}
+.explore-price {color: #ff0008;font-weight: bold;}
 .explore-price-box {
     display: inline-block;
     padding: 0 10px;
