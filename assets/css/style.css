@@ -353,7 +353,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     top: -98px;
     z-index: 1;
 }
-.list-topics-content ul li { display: inline-block;}
+.list-topics-content ul li { display:flex;}
 
 .single-list-topics-content{
     display: flex;
