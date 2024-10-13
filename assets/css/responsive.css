@@ -9,7 +9,6 @@
 	nav.navbar.bootsnav ul.nav > li > a { padding: 35px 10px;}
 	
 	.welcome-hero-txt h2{font-size: 40px;}
-
 	.single-welcome-hero-form input {width: 177px;}
 	.welcome-hero-btn {width: 140px;}
 
@@ -51,8 +50,20 @@
 	.welcome-hero-txt {padding-top: 80px;}
 	.single-welcome-hero-form {flex-direction: column;width: 100%;background: #fff; margin: 15px 0;padding: 20px 0;}
 	.welcome-hero-form {width: 100%;flex-direction: column;height: 250px;background: transparent;}
-
+	.welcome-hero-serch-box{
+		margin-top: 50px;
+	}
+	.welcome-hero-btn{
+		margin-top: 100px;
+	}
 	.list-topics-content {top: 0;margin: 60px auto;}
+	.list-topics-content ul{
+		 display:flex;
+		 flex-direction: column;
+		 align-items: center;
+	 
+		
+	}
 
 	.single-how-works,.single-blog-item {max-width: 350px;margin: 30px auto;}
 
